@@ -1,0 +1,173 @@
+/home/echo/clion-2017.3.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/echo/hkust_catkin/hkust/src/cloud_to_map/src/cloud_to_map
+-- Using CATKIN_DEVEL_PREFIX: /home/echo/hkust_catkin/hkust/src/cloud_to_map/src/cloud_to_map/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/echo/catkin_ws/catkin/devel;/home/echo/hkust_catkin/hkust/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/echo/catkin_ws/catkin/devel;/home/echo/hkust_catkin/hkust/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/echo/hkust_catkin/hkust/src/cloud_to_map/src/cloud_to_map/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/local/bin/nosetests-2.7
+-- catkin 0.7.6
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.2.92
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Could NOT find ENSENSO (missing: ENSENSO_LIBRARIES ENSENSO_INCLUDE_DIRS) 
+** WARNING ** io features related to ensenso will be disabled
+-- Could NOT find davidSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** io features related to davidSDK will be disabled
+-- Could NOT find DSSDK (missing: DSSDK_LIBRARIES DSSDK_INCLUDE_DIRS) 
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Checking for module 'flann'
+--   Found flann, version 1.8.4
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'flann'
+--   Found flann, version 1.8.4
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Could NOT find ENSENSO (missing: ENSENSO_LIBRARIES ENSENSO_INCLUDE_DIRS) 
+** WARNING ** visualization features related to ensenso will be disabled
+-- Could NOT find davidSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** visualization features related to davidSDK will be disabled
+-- Could NOT find DSSDK (missing: DSSDK_LIBRARIES DSSDK_INCLUDE_DIRS) 
+** WARNING ** visualization features related to dssdk will be disabled
+-- Could NOT find RSSDK (missing: RSSDK_LIBRARIES RSSDK_INCLUDE_DIRS) 
+** WARNING ** visualization features related to rssdk will be disabled
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- looking for PCL_KDTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_GEOMETRY
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_TRACKING
+-- looking for PCL_STEREO
+-- looking for PCL_2D
+-- looking for PCL_FEATURES
+-- looking for PCL_REGISTRATION
+-- looking for PCL_ML
+-- looking for PCL_RECOGNITION
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_PEOPLE
+-- looking for PCL_SURFACE
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_APPS
+-- looking for PCL_CUDA_COMMON
+-- looking for PCL_CUDA_SAMPLE_CONSENSUS
+-- looking for PCL_CUDA_FEATURES
+-- looking for PCL_CUDA_SEGMENTATION
+-- looking for PCL_GPU_CONTAINERS
+-- looking for PCL_GPU_UTILS
+-- looking for PCL_GPU_OCTREE
+-- looking for PCL_GPU_KINFU
+-- looking for PCL_GPU_FEATURES
+-- looking for PCL_GPU_SEGMENTATION
+-- looking for PCL_GPU_KINFU_LARGE_SCALE
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:416 (message):
+  catkin_package() include dir
+  '/home/echo/hkust_catkin/hkust/src/cloud_to_map/src/cloud_to_map/cmake-build-debug/devel/include'
+  should be placed in the devel space instead of the build space
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:23 (catkin_package)
+
+
+-- Configuring done
+CMake Warning at CMakeLists.txt:48 (add_executable):
+  Cannot generate a safe linker search path for target cloud_to_map_node
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libpcl_common.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_kdtree.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_octree.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_search.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_io.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_sample_consensus.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_filters.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_features.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_segmentation.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_surface.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_registration.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_recognition.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_keypoints.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_visualization.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_people.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_outofcore.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_tracking.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/echo/hkust_catkin/hkust/src/cloud_to_map/src/cloud_to_map/cmake-build-debug

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: cloud_to_map
+Description: Description of cloud_to_map
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: 

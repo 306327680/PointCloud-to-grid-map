@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="cloud_to_map" pkg="cloud_to_map" type="cloud_to_map">
+  <param name="frame" type="str" value="map" />
+  <param name="search_radius" type="double" value="0.06" />
+  <param name="deviation" type="double" value="0.78539816339" />
+  <param name="buffer" type="int" value="0" />
+  <param name="loop_rate" type="double" value="10.0" />
+  <param name="cell_resolution" type="double" value="0.7" />
+</node>
+\endverbatim
+

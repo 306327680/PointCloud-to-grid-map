@@ -1,0 +1,13 @@
+<launch>
+
+ <node pkg="point_cloud_io" type="read" name="read" output="screen">
+    <param name="file_path" value="/home/echo/桌面/standard_vtk/output_outdoor.vtk" />
+    <param name="topic"     value="/point_cloud" />
+    <param name="frame"     value="map" />
+    <param name="rate"      value="1.0" />
+  </node>
+  <node pkg="cloud_to_map" type="cloud_to_map_node" name="cloud_to_map_node"/>
+   
+  <node pkg="voxel_filter" type="voxel_filter_node" name="voxel_filter_node"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find cloud_to_map)/launch.rviz"/>
+</launch>
